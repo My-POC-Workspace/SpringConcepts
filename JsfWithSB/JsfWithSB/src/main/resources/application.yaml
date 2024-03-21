@@ -1,0 +1,12 @@
+server:
+  port: 9088
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/AlSudaisIAMService
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
